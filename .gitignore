@@ -6,3 +6,16 @@ __pycache__/
 
 *.pyc
 *.log
+# Raw data
+data/raw/*.csv
+
+# Environment
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
