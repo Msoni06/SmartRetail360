@@ -1,18 +1,20 @@
 # SmartRetail360 – End-to-End Retail Analytics Platform
 
+![SmartRetail360 Banner](images/banner.png)
+
 ## Retail Analytics | Data Engineering | Machine Learning | Power BI
 
-![Dashboard Preview](images/executive_dashboard.png)
+### End-to-End Retail Analytics Platform built using SQL, PostgreSQL, Python, Machine Learning and Power BI
 
 ---
 
-## Project Overview
+# Project Overview
 
-SmartRetail360 is an end-to-end Retail Analytics Platform built using SQL, PostgreSQL, Python, Machine Learning, and Power BI.
+SmartRetail360 is a production-style Retail Analytics Platform designed to transform raw e-commerce transaction data into actionable business insights.
 
-The project analyzes over 100,000+ e-commerce transactions from the Olist Brazilian E-Commerce Dataset to uncover customer behavior, sales trends, product performance, seller performance, and regional business insights.
+The project analyzes over **100,000+ retail transactions** from the Olist Brazilian E-Commerce Dataset to uncover customer behavior, sales trends, product performance, seller performance, and regional business insights.
 
-The platform follows a real-world analytics workflow covering:
+The platform follows a complete analytics lifecycle:
 
 * Data Engineering
 * Data Warehousing
@@ -24,7 +26,7 @@ The platform follows a real-world analytics workflow covering:
 
 ---
 
-## Project Deliverables
+# Project Deliverables
 
 ✅ PostgreSQL Data Warehouse
 
@@ -48,11 +50,11 @@ The platform follows a real-world analytics workflow covering:
 
 # Business Problem
 
-Retail businesses generate large volumes of transactional data daily. Without effective analytics, organizations struggle to:
+Retail organizations generate massive volumes of transactional data every day. Without effective analytics, businesses struggle to:
 
 * Identify high-performing products
 * Understand customer purchasing behavior
-* Track sales performance across regions
+* Monitor regional sales performance
 * Detect sales trends and seasonality
 * Improve customer retention
 * Support data-driven decision making
@@ -63,11 +65,11 @@ SmartRetail360 addresses these challenges through a centralized analytics soluti
 
 # Dataset
 
-### Source
+## Source
 
 Olist Brazilian E-Commerce Dataset
 
-Dataset Link:
+Dataset:
 
 https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
@@ -99,7 +101,7 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 * Scikit-Learn
 
-## Visualization
+## Data Visualization
 
 * Power BI
 * Matplotlib
@@ -146,48 +148,48 @@ Power BI Executive Dashboard
 
 ## Phase 1 – Data Engineering
 
-* Data extraction
-* Data cleaning
-* Missing value handling
-* Data transformation
-* Feature engineering
-* Data quality checks
+* Data Extraction
+* Data Cleaning
+* Missing Value Handling
+* Data Transformation
+* Feature Engineering
+* Data Quality Validation
 
 ## Phase 2 – Data Warehouse
 
 * Star Schema Design
-* Dimension Tables
-* Fact Tables
+* Fact Table Development
+* Dimension Table Development
 * Index Optimization
-* SQL Views
+* SQL Views Creation
 * PostgreSQL Loading
 
-## Phase 3 – Analytics
+## Phase 3 – Business Analytics
 
 * Revenue Analysis
 * Customer Analysis
 * Product Analysis
+* Seller Analysis
 * Regional Analysis
-* Seller Performance Analysis
 
 ## Phase 4 – Machine Learning
 
 ### Customer Churn Prediction
 
-* Customer feature engineering
-* Classification modeling
-* Churn scoring
+* Customer Feature Engineering
+* Classification Modeling
+* Churn Risk Scoring
 
 ### Sales Forecasting
 
-* Historical trend analysis
-* Revenue forecasting
-* Future sales estimation
+* Historical Trend Analysis
+* Revenue Forecasting
+* Future Sales Estimation
 
 ## Phase 5 – Business Intelligence
 
 * KPI Monitoring
-* Executive Dashboard
+* Executive Dashboarding
 * Interactive Reporting
 * Business Insights Generation
 
@@ -197,11 +199,11 @@ Power BI Executive Dashboard
 
 The project follows a Star Schema architecture.
 
-### Fact Table
+## Fact Table
 
 * retail_fact_sales
 
-### Dimension Tables
+## Dimension Tables
 
 * retail_dim_customer
 * retail_dim_product
@@ -209,9 +211,7 @@ The project follows a Star Schema architecture.
 * retail_dim_region
 * retail_dim_seller
 
-### SQL Assets
-
-Located in:
+## SQL Assets
 
 ```text
 database/schema/
@@ -228,27 +228,27 @@ database/schema/
 
 ## Revenue Performance
 
-* Revenue showed strong growth between 2017 and 2018.
-* Significant seasonal variations were observed across months.
-* Revenue concentration was observed in a few major states.
+* Revenue showed strong growth between 2017 and 2018
+* Significant seasonal variations were observed across months
+* Revenue concentration existed in a few major states
 
 ## Product Performance
 
-* Home and lifestyle categories generated the highest revenue.
-* Product category performance varied significantly.
-* Top categories contributed a large share of total sales.
+* Home and lifestyle categories generated the highest revenue
+* Product category performance varied significantly
+* Top categories contributed a major share of total sales
 
 ## Customer Insights
 
-* Customer distribution was concentrated in key regions.
-* Purchasing behavior varied across states.
-* Review scores remained consistently positive.
+* Customer distribution was concentrated in key regions
+* Purchasing behavior varied across states
+* Review scores remained consistently positive
 
 ## Regional Performance
 
-* São Paulo (SP) generated the highest revenue.
-* Regional revenue imbalance indicated market concentration.
-* Seller performance differed significantly by location.
+* São Paulo (SP) generated the highest overall revenue
+* Regional imbalance indicated market concentration
+* Seller performance differed significantly by location
 
 ---
 
@@ -256,37 +256,37 @@ database/schema/
 
 ## Customer Churn Prediction
 
-Objectives:
+### Objectives
 
 * Identify customers at risk of churn
 * Improve retention efforts
 * Support customer targeting strategies
 
-Outputs:
+### Outputs
 
-* Customer churn scores
-* Retention opportunity identification
-* Customer risk segmentation
+* Customer Churn Scores
+* Retention Opportunity Identification
+* Customer Risk Segmentation
 
 ## Sales Forecasting
 
-Objectives:
+### Objectives
 
 * Forecast future sales trends
 * Support inventory planning
 * Improve business forecasting
 
-Outputs:
+### Outputs
 
-* Revenue forecasting
-* Trend analysis
-* Business planning support
+* Revenue Forecasting
+* Trend Analysis
+* Business Planning Support
 
 ---
 
 # Executive Dashboard
 
-The Power BI dashboard provides interactive business insights through KPIs, charts, maps, and filters.
+The Power BI Executive Dashboard provides interactive business insights through KPIs, maps, charts, and filters.
 
 ## KPI Cards
 
@@ -373,6 +373,7 @@ SmartRetail360
 │   └── SmartRetail360 Retail Analytics Platform.pdf
 │
 ├── images/
+│   ├── banner.png
 │   └── executive_dashboard.png
 │
 ├── reports/
@@ -393,12 +394,12 @@ SmartRetail360
 
 # Business Impact
 
-* Analyzed 100,000+ retail transactions.
-* Built a PostgreSQL star-schema data warehouse.
-* Developed Machine Learning models for churn prediction and sales forecasting.
-* Created an executive Power BI dashboard with interactive filters.
-* Enabled customer, product, seller, and regional performance analysis.
-* Supported data-driven decision-making through business insights.
+* Analyzed 100,000+ retail transactions
+* Built a PostgreSQL Star Schema Data Warehouse
+* Developed Machine Learning models for churn prediction and sales forecasting
+* Created an Executive Power BI Dashboard with interactive filters
+* Enabled customer, product, seller, and regional performance analysis
+* Supported data-driven business decision making
 
 ---
 
@@ -434,7 +435,7 @@ pip install -r requirements.txt
 
 B.Tech Computer Science Engineering
 
-Data Analyst | SQL | Python | Power BI | Machine Learning
+**Data Analyst | SQL | Python | PostgreSQL | Power BI | Machine Learning**
 
 GitHub:
 https://github.com/Msoni06
@@ -453,10 +454,8 @@ End-to-End Retail Analytics Platform featuring:
 * SQL Data Warehouse
 * Data Engineering Pipelines
 * Machine Learning Models
+* Customer Churn Prediction
 * Sales Forecasting
-* Power BI Dashboard
+* Power BI Executive Dashboard
 * Business Reporting
 * GitHub Documentation
-
-```
-```
