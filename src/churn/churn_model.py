@@ -30,8 +30,7 @@ X = df[
     [
         "total_orders",
         "total_spent",
-        "avg_order_value",
-        "days_since_last_purchase"
+        "avg_order_value"
     ]
 ]
 

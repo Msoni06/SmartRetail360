@@ -19,3 +19,11 @@ __pycache__/
 
 # Logs
 *.log
+# Feature Store Outputs
+data/feature_store/*.csv
+
+# Forecast Exports (keep if desired)
+# data/exports/*.csv
+
+# Model Artifacts
+*.pkl
